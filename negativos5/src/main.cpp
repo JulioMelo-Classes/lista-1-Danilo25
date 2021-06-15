@@ -1,12 +1,22 @@
 #include <iostream>
-using std::cin;
-using std::cout;
+using namespace std;
 
 const int SIZE = 5; // input size.
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    int val=0,
+        qnt=0,
+        rep=0;
 
+    while (rep<5)
+    {
+        cin>>val;
+        if(val<0){
+            qnt++;
+        }
+        rep++;
+    }
+    cout<<qnt<<endl;
     return 0;
 }
