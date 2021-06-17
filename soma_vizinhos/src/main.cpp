@@ -4,13 +4,46 @@
  * @data June, 6th 2021
  */
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
+using namespace std;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+    int n=0,
+        m=0,
+        v=0,
+        rep=0;
+
+
+    while (true)
+    {
+        cin>>m>>n;
+
+        if(cin.eof()){
+            break;
+        }
+
+        rep = n;
+        if(n<0){rep = n * -1;}
+
+        if(n==0){
+            v=m;
+        }
+        for(int i=0; i<rep ; i++){
+            if(n>0){
+                v+=m;
+                m++;
+            }else if(n<0){
+                v+=m;
+                m--;
+            }
+        }
+
+        cout<<v<<endl;
+        n=0;
+        m=0;
+        v=0;
+        rep=0;
+    }
 
     return 0;
 }
