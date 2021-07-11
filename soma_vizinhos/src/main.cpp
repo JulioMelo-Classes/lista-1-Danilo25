@@ -6,14 +6,18 @@
 #include <iostream>
 using namespace std;
 
+/*
+ok
+*/
 int main( void )
 {
+    /*essa indentação aqui ficou meio esquisita mas blz*/
     int n=0,
         m=0,
         v=0,
         rep=0;
 
-
+    /*boa solução*/
     while (true)
     {
         cin>>m>>n;

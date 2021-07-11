@@ -3,6 +3,9 @@ using namespace std;
 
 const int SIZE = 5; // input size.
 
+/*
+blz
+*/
 int main(void)
 {
     int val=0,
