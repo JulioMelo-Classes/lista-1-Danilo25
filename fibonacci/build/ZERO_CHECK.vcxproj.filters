@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\danil\OneDrive\Área de Trabalho\BTI\2021.1\LP1\lista-1-Danilo25\fibonacci\build\CMakeFiles\c0e5023e8bc677140ce2490363399682\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4806C5CD-D7C3-3AC9-B2AD-0A2ED0E5C2F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\DANIL\ONEDRIVE\ÁREA DE TRABALHO\BTI\2021.1\LP1\LISTA-1-DANILO25\FIBONACCI\BUILD\CMAKEFILES\C0E5023E8BC677140CE2490363399682\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/fibonacci" "-BC:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/fibonacci/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/fibonacci/build/FibBelowN.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
