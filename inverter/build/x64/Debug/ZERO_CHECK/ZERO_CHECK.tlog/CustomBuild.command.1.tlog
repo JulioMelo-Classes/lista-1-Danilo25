@@ -1,0 +1,10 @@
+^C:\USERS\DANIL\ONEDRIVE\ÁREA DE TRABALHO\BTI\2021.1\LP1\LISTA-1-DANILO25\INVERTER\BUILD\CMAKEFILES\CEB67457EFFCB53D3F2F8CDEA68B80A0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter" "-BC:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build/Inverter.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
