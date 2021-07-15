@@ -9,8 +9,10 @@
  *
  * @return A pair of indexes to the first smallest and last largest values.
  */
-
-std::pair<int,int> min_max( int V[], size_t n )
+/*
+ok
+*/
+std::pair<int,int> min_max( int V[], std::size_t n )
 {
     int min=V[0],
         max=V[0],
@@ -27,7 +29,7 @@ std::pair<int,int> min_max( int V[], size_t n )
                 posMin = i;
                 min = V[i];
             }
-            if(V[i]>max){
+            if(V[i]>max){ //podia ser V[i]>=max =)
                 posMax = i;
                 max = V[i];
             }else if(V[i]==max){

@@ -1,5 +1,0 @@
-C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build/CMakeFiles/func.dir
-C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build/CMakeFiles/all_tests.dir
-C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build/CMakeFiles/run_tests.dir
-C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-1-Danilo25/inverter/build/CMakeFiles/ZERO_CHECK.dir
